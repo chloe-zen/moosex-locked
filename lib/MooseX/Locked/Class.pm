@@ -3,11 +3,11 @@ package MooseX::Locked::Class;
 use 5.008;
 use strict;
 use warnings FATAL => 'all';
-our $VERSION;
-BEGIN { $VERSION = 0.02 }
 
-use Hash::Util ();
+our $VERSION = $MooseX::Locked::Class or die "cheating";
+
 use Moose::Role;
+use Hash::Util ();
 
 around new_object => sub {
     my $orig = shift;
