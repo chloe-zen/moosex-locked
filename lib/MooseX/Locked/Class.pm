@@ -4,8 +4,6 @@ use 5.008;
 use strict;
 use warnings FATAL => 'all';
 
-our $VERSION = $MooseX::Locked::Class or die "cheating";
-
 use Moose::Role;
 use Hash::Util ();
 
