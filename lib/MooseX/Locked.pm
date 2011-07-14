@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use warnings FATAL => 'all';
 our $VERSION;
-BEGIN { $VERSION = 0.01 }
+BEGIN { $VERSION = 0.02 }
 
 use Moose ();
 

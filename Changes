@@ -1,5 +1,8 @@
 Revision history for MooseX-Locked
 
-0.01    Date/time
+0.02	2011-07-13
+	Disable author-only tests by default; some fail on purpose.
+
+0.01    2011-07-13
         First version, released on an unsuspecting world.
 
