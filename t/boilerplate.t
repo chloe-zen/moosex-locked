@@ -3,7 +3,13 @@
 use 5.006;
 use strict;
 use warnings;
-use Test::More tests => 3;
+use Test::More;
+
+unless ( $ENV{RELEASE_TESTING} ) {
+    plan( skip_all => "Author tests not required for installation" );
+}
+
+plan tests => 3;
 
 sub not_in_file_ok {
     my ($filename, %regex) = @_;
