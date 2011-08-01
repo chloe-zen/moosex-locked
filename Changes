@@ -1,5 +1,8 @@
 Revision history for MooseX-Locked
 
+1.00	2011-08-01
+	Call out Moose dependency for auto testers.
+
 0.02	2011-07-13
 	Disable author-only tests by default; some fail on purpose.
 

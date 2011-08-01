@@ -28,11 +28,11 @@ MooseX::Locked - Moose role to automatically lock object hashes
 
 =head1 VERSION
 
-Version 0.02
+Version 1.00
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '1.00';
 
 =head1 SYNOPSIS
 
