@@ -4,6 +4,8 @@ use 5.008;
 use strict;
 use warnings FATAL => 'all';
 
+our $VERSION = '1.01';
+
 use Moose ();
 
 Moose::Exporter->setup_import_methods(
@@ -28,11 +30,7 @@ MooseX::Locked - Moose role to automatically lock object hashes
 
 =head1 VERSION
 
-Version 1.00
-
-=cut
-
-our $VERSION = '1.00';
+version 1.01
 
 =head1 SYNOPSIS
 
