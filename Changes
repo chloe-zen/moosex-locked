@@ -1,5 +1,8 @@
 Revision history for MooseX-Locked
 
+1.01	2011-10-22
+	Fix parseable version.
+
 1.00	2011-08-01
 	Call out Moose dependency for auto testers.
 
